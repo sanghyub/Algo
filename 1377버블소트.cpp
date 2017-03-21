@@ -11,7 +11,6 @@ int main() {
 		v.push_back(arr[i]);
 	}
 	sort(v.begin(), v.end());
-
 	vector<int>::iterator upper;
 	int Max = 0; 
 	for (int i = 0; i < n; i++) {
