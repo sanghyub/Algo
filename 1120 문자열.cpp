@@ -13,4 +13,5 @@ int main() {
 		if (Min > cnt) Min = cnt;
 	}
 	printf("%d", Min);
+	
 }
