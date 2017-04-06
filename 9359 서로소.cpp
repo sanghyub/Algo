@@ -19,7 +19,6 @@ int main() {
 			}
 		}
 		if (n != 1 &&index-1>=0 &&soinsu[index-1]!=n) soinsu[index++] = n;
-
 		for (int i = 1; i < 1 << (index-1); i++) {
 			int cnt = 0;
 			int bae = 1;
