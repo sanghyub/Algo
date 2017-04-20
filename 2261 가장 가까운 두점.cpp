@@ -28,12 +28,11 @@ int closestPair(point *P, int n) {
 	return d;
 }
 
-int main(void) {
+int main() {
 	int n;
 	cin >> n;
-	for (int i = 0; i<n; i++) scanf("%hd %hd", &P[i].x, &P[i].y);
+	for (int i = 0; i<n; i++) scanf("%d %d", &P[i].x, &P[i].y);
 	sort(P, P + n, cmpPointX);
 	cout << closestPair(P, n);
 	return 0;
 }
-
